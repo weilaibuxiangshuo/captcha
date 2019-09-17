@@ -1,3 +1,7 @@
+pip中需在安装
+pip install Pillow
+
+
 views中调用
 
 class CaptchaView(View):
