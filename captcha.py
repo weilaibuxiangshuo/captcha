@@ -93,12 +93,12 @@ class Captcha(object):
         return text, out.getvalue()
 
         # BytesIO：相当于一个管道，用来存储图片的流数据
-        out = BytesIO()
+        #out = BytesIO()
         # 调用image的save方法，将这个image对象保存到BytesIO中
-        image.save(out, 'png')
+        #image.save(out, 'png')
         # 将BytesIO的文件指针移动到最开始的位置
-        out.seek(0)
-        return out.read()
+        #out.seek(0)
+        #return out.read()
 
 
 if __name__ == '__main__':
